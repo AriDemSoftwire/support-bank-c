@@ -11,14 +11,18 @@ List<Transaction> transactions = new List<Transaction>();
 List<Account> accounts = new List<Account>();
 List<string> names = new List<string>();
 
+//getting a transactions array
 for (int i = 1; i < lines.Length; i++)
 {
     string[] transactionData = lines[i].Split(',');
    
     double amount = double.Parse(transactionData[4], System.Globalization.CultureInfo.InvariantCulture);
 
-    Transaction myTrans = new Transaction(transactionData[0], transactionData[1],
-        transactionData[2], transactionData[3], amount);
+    Transaction myTrans = new Transaction(transactionData[0], 
+        transactionData[1],
+        transactionData[2], 
+        transactionData[3], 
+        amount);
 
    transactions.Add(myTrans);
 }
@@ -61,24 +65,32 @@ foreach (string name in names)
     accounts.Add(new Account(name, accBalance, transFrom, transTo));
 }
 
-//    Console.WriteLine(accounts[2].name);
-//    Console.WriteLine(Math.Round(accounts[2].balance, 2));
-//    foreach (Transaction trans in accounts[2].from)
-//{
-//    Console.WriteLine(trans.date);
-//    Console.WriteLine(trans.from);
-//    Console.WriteLine(trans.to);
-//    Console.WriteLine(trans.narrative);
-//    Console.WriteLine(trans.amount);
-//    Console.WriteLine("");
-//}
+// reading user input
+string command = "";
+command = Console.ReadLine();
+if (command == "List All") {
+    listAll(accounts);
+}
+foreach (Account acc in accounts)
+{ 
+    string input = command.Substring(5);
+    Console.WriteLine(input);
+    Console.WriteLine(acc.name);
 
-static void listAll(List<Account> accounts)
+    if (input == acc.name)
+    {
+        listTransactions(accounts, input);
+        break;
+    }
+}
+
+// functions
+static void listAll (List<Account> accounts)
 {
     foreach (Account acc in accounts)
     {
-        Console.WriteLine("Account name: ", acc.name);
-        Console.WriteLine("Account balance: ", acc.balance);
+        Console.WriteLine($"Account name: {acc.name}");
+        Console.WriteLine($"Account balance: {Math.Round(acc.balance, 2)}");
         Console.WriteLine("");
     }
 }
@@ -90,7 +102,7 @@ static void listTransactions (List<Account> accounts, string name)
     {
         if (acc.name == name)
         {
-            Console.WriteLine("Name: ", acc.name);
+            Console.WriteLine($"Name: {acc.name}");
             Console.WriteLine("");
             foreach (Transaction trans in acc.from)
             {
@@ -115,6 +127,7 @@ static void listTransactions (List<Account> accounts, string name)
     }
 }
 
+// classes
 public class Transaction
 {
     public string date;
