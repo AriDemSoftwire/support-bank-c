@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2vfxnatSB8MepdCblbjUEhtOlyeUHzQ7IBZihqDxvfgmL1WZq2OcGqXQ1y75Qh1zjTeU5Gm05QkdevgC5C47Kw==",
+  "dgSpecHash": "ReiCjmcppfjoe2i5VoBroaS7yiAM41u3LnvwGK30ITjTn3SQRpnkKw5m00ecuzVfiD6niaPiYu8sjzc+ubKeug==",
   "success": true,
   "projectFilePath": "C:\\Users\\MSIG\\Desktop\\work\\Softwire\\C#\\support-bank\\support-bank\\support-bank\\support-bank.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\MSIG\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\MSIG\\.nuget\\packages\\newtonsoft.json\\13.0.2-beta3\\newtonsoft.json.13.0.2-beta3.nupkg.sha512"
+  ],
   "logs": []
 }

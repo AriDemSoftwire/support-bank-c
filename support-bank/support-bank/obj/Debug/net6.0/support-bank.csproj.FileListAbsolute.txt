@@ -13,3 +13,6 @@ C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\ob
 C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\obj\Debug\net6.0\support-bank.pdb
 C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\obj\Debug\net6.0\support-bank.genruntimeconfig.cache
 C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\obj\Debug\net6.0\ref\support-bank.dll
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\bin\Debug\net6.0\CsvHelper.dll
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\obj\Debug\net6.0\support-bank.csproj.CopyComplete
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\bin\Debug\net6.0\Newtonsoft.Json.dll
