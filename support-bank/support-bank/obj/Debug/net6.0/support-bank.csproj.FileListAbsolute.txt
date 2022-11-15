@@ -1,0 +1,15 @@
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\bin\Debug\net6.0\support-bank.exe
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\bin\Debug\net6.0\support-bank.deps.json
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\bin\Debug\net6.0\support-bank.runtimeconfig.json
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\bin\Debug\net6.0\support-bank.dll
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\bin\Debug\net6.0\support-bank.pdb
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\obj\Debug\net6.0\support-bank.csproj.AssemblyReference.cache
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\obj\Debug\net6.0\support-bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\obj\Debug\net6.0\support-bank.AssemblyInfoInputs.cache
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\obj\Debug\net6.0\support-bank.AssemblyInfo.cs
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\obj\Debug\net6.0\support-bank.csproj.CoreCompileInputs.cache
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\obj\Debug\net6.0\support-bank.dll
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\obj\Debug\net6.0\refint\support-bank.dll
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\obj\Debug\net6.0\support-bank.pdb
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\obj\Debug\net6.0\support-bank.genruntimeconfig.cache
+C:\Users\MSIG\Desktop\work\Softwire\C#\support-bank\support-bank\support-bank\obj\Debug\net6.0\ref\support-bank.dll
