@@ -37,6 +37,7 @@ foreach (Transaction trans in transactions)
     }
 }
 
+// getting an array of accounts
 foreach (string name in names)
 {
     double accBalance = 0;
@@ -60,18 +61,59 @@ foreach (string name in names)
     accounts.Add(new Account(name, accBalance, transFrom, transTo));
 }
 
-    Console.WriteLine(accounts[2].name);
-    Console.WriteLine(Math.Round(accounts[2].balance, 2));
-    foreach (Transaction trans in accounts[2].from)
+//    Console.WriteLine(accounts[2].name);
+//    Console.WriteLine(Math.Round(accounts[2].balance, 2));
+//    foreach (Transaction trans in accounts[2].from)
+//{
+//    Console.WriteLine(trans.date);
+//    Console.WriteLine(trans.from);
+//    Console.WriteLine(trans.to);
+//    Console.WriteLine(trans.narrative);
+//    Console.WriteLine(trans.amount);
+//    Console.WriteLine("");
+//}
+
+static void listAll(List<Account> accounts)
 {
-    Console.WriteLine(trans.date);
-    Console.WriteLine(trans.from);
-    Console.WriteLine(trans.to);
-    Console.WriteLine(trans.narrative);
-    Console.WriteLine(trans.amount);
-    Console.WriteLine("");
+    foreach (Account acc in accounts)
+    {
+        Console.WriteLine("Account name: ", acc.name);
+        Console.WriteLine("Account balance: ", acc.balance);
+        Console.WriteLine("");
+    }
 }
 
+static void listTransactions (List<Account> accounts, string name)
+{
+
+    foreach (Account acc in accounts)
+    {
+        if (acc.name == name)
+        {
+            Console.WriteLine("Name: ", acc.name);
+            Console.WriteLine("");
+            foreach (Transaction trans in acc.from)
+            {
+                Console.WriteLine(trans.date);
+                Console.WriteLine(trans.from);
+                Console.WriteLine(trans.to);
+                Console.WriteLine(trans.narrative);
+                Console.WriteLine(trans.amount);
+                Console.WriteLine("");
+            }
+
+            foreach (Transaction trans in acc.to)
+            {
+                Console.WriteLine(trans.date);
+                Console.WriteLine(trans.from);
+                Console.WriteLine(trans.to);
+                Console.WriteLine(trans.narrative);
+                Console.WriteLine(trans.amount);
+                Console.WriteLine("");
+            }
+        }
+    }
+}
 
 public class Transaction
 {
